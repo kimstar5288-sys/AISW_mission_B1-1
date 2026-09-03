@@ -1,0 +1,14 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">추상적인 프로필 일러스트</title>
+  <desc id="desc">보라색과 연두색의 원, 곡선, 얼굴 실루엣으로 표현한 창의적인 프로필 이미지</desc>
+  <rect width="800" height="800" rx="80" fill="#DCD7FF"/>
+  <circle cx="604" cy="176" r="128" fill="#B8FFCA"/>
+  <circle cx="188" cy="642" r="172" fill="#6F5CFF" fill-opacity="0.16"/>
+  <path d="M292 524C292 408 354 320 444 320C534 320 596 408 596 524V612H292V524Z" fill="#171814"/>
+  <circle cx="444" cy="272" r="110" fill="#171814"/>
+  <path d="M336 254C352 170 418 128 496 154C544 170 581 208 590 258C548 226 514 218 475 221C421 226 382 246 336 254Z" fill="#6F5CFF"/>
+  <path d="M222 182C302 112 379 80 468 82" stroke="#171814" stroke-width="10" stroke-linecap="round"/>
+  <path d="M210 210C285 151 353 126 425 126" stroke="#171814" stroke-width="4" stroke-dasharray="14 18" stroke-linecap="round"/>
+  <circle cx="664" cy="548" r="58" fill="#171814"/>
+  <path d="M646 548H682M664 530V566" stroke="#B8FFCA" stroke-width="8" stroke-linecap="round"/>
+</svg>
