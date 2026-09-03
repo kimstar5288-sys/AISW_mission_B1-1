@@ -79,7 +79,7 @@ Hero, About, Skills 내용을 본인 경험에 맞게 자유롭게 수정할 수
 5. Branch: `main`, Folder: `/ (root)` 선택 후 Save.
 6. 생성된 URL을 아래에 기록합니다.
 
-- GitHub 저장소 URL: 
+- GitHub 저장소 URL: https://github.com/kimstar5288-sys/AISW_mission_B1-1.git
 - 배포 URL: https://portfolio-project-4.tiiny.site/
 
 ## 제출용 스크린샷
