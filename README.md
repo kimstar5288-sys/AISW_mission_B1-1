@@ -84,11 +84,9 @@ Hero, About, Skills 내용을 본인 경험에 맞게 자유롭게 수정할 수
 
 ## 제출용 스크린샷
 
-배포 후 다음 3장을 캡처해 README에 추가하세요.
-
 - 데스크톱 화면
-- 모바일 화면 (Chrome DevTools 권장)
-- 다크 모드 화면
+  https://github.com/user-attachments/assets/ec96c5ca-e3fc-4377-aa80-4d425e580068" /
+
 
 ## 참고
 
