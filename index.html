@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="김성완의 반응형 포트폴리오 웹사이트">
+  <title>김성완 | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로가기</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="주요 메뉴">
+      <a class="logo" href="#hero" aria-label="홈으로 이동">Sung-Wan<span>.</span></a>
+
+      <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="다크 모드 전환" title="테마 전환">
+          <span class="theme-icon" aria-hidden="true">☾</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">HELLO, I AM</p>
+          <h1>김성완입니다.<br><span class="typing-text" aria-live="polite"></span></h1>
+          <p class="hero-description">교육과 콘텐츠, 사람을 연결하는 경험을 좋아합니다. 아이디어를 이해하기 쉬운 이야기와 화면으로 바꾸는 일을 배우고 있습니다.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">프로젝트 보기</a>
+            <a class="btn btn-secondary" href="#contact">연락하기</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-card">
+            <span class="hero-card-label">PORTFOLIO 2026</span>
+            <strong>Learn.<br>Design.<br>Connect.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ABOUT</p>
+          <h2>저를 소개합니다</h2>
+        </div>
+
+        <div class="about-grid">
+          <figure class="profile-card reveal">
+            <img src="images/profile-photo.png" alt="김성완 프로필 사진">
+            <figcaption>Curious learner · Communicator · Maker</figcaption>
+          </figure>
+
+          <article class="about-copy reveal">
+            <h3>배우고, 정리하고, 더 잘 전달하는 사람</h3>
+            <p>새로운 것을 배운 뒤 핵심을 정리하고, 다른 사람이 쉽게 이해할 수 있는 형태로 바꾸는 과정을 좋아합니다. 교육, 콘텐츠 기획, 시각 커뮤니케이션에 관심이 있으며 웹 기술을 활용해 생각을 직접 구현하는 역량을 키우고 있습니다.</p>
+            <p>이번 포트폴리오는 순수 HTML, CSS, JavaScript만으로 만들었습니다. 화면을 예쁘게 만드는 것뿐 아니라 사용자 이벤트가 상태를 바꾸고, 그 상태가 다시 화면에 반영되는 흐름을 직접 구현했습니다.</p>
+            <dl class="about-facts">
+              <div><dt>Focus</dt><dd>교육 · 콘텐츠 · 웹</dd></div>
+              <div><dt>Approach</dt><dd>사용자 중심 · 명료한 전달</dd></div>
+              <div><dt>Now</dt><dd>Front-end Basics</dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SKILLS</p>
+          <h2>사용 기술과 관심 분야</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+            <h3>HTML</h3>
+            <p>시맨틱 태그와 접근성을 고려한 구조 설계</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon" aria-hidden="true">#</div>
+            <h3>CSS</h3>
+            <p>Flexbox, Grid, 반응형 레이아웃과 테마 설계</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon" aria-hidden="true">JS</div>
+            <h3>JavaScript</h3>
+            <p>DOM 조작, 이벤트, 상태 관리, 비동기 API 처리</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon" aria-hidden="true">✦</div>
+            <h3>Content</h3>
+            <p>정보 구조화, 메시지 기획, 사용자 관점의 커뮤니케이션</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">PROJECTS</p>
+          <h2>GitHub에서 불러온 프로젝트</h2>
+          <p class="section-description">GitHub REST API를 사용해 저장소를 동적으로 불러옵니다.</p>
+        </div>
+
+        <div class="project-toolbar reveal">
+          <div class="filter-group" id="project-filters" aria-label="프로젝트 언어 필터"></div>
+          <button class="refresh-btn" id="refresh-projects" type="button">새로고침</button>
+        </div>
+
+        <div class="project-state" id="project-state" aria-live="polite"></div>
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">CONTACT</p>
+          <h2>함께 이야기해요</h2>
+          <p>프로젝트 제안, 협업, 혹은 가벼운 인사도 좋습니다. 아래 폼을 작성해 주세요.</p>
+          <a href="mailto:hello@example.com" class="contact-email">hello@example.com</a>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" autocomplete="name" aria-describedby="name-error">
+            <small class="error-message" id="name-error"></small>
+          </div>
+
+          <div class="form-field">
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email" autocomplete="email" aria-describedby="email-error">
+            <small class="error-message" id="email-error"></small>
+          </div>
+
+          <div class="form-field">
+            <label for="message">메시지</label>
+            <textarea id="message" name="message" rows="6" aria-describedby="message-error"></textarea>
+            <small class="error-message" id="message-error"></small>
+          </div>
+
+          <button class="btn btn-primary submit-btn" type="submit">메시지 보내기</button>
+          <p class="form-success" id="form-success" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="current-year"></span> 김성완. Built with HTML, CSS & JavaScript.</p>
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scroll-top" type="button" aria-label="페이지 맨 위로 이동">↑</button>
+</body>
+</html>
