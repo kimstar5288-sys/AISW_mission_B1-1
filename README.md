@@ -41,35 +41,7 @@ portfolio_project/
 2. Live Server 확장을 설치합니다.
 3. `index.html`을 우클릭 → **Open with Live Server**.
 
-## 반드시 수정할 항목
-
-### 1) GitHub 사용자명
-
-`js/main.js` 상단의 값을 본인의 GitHub 아이디로 변경하세요.
-
-```js
-const GITHUB_USERNAME = 'octocat';
-```
-
-### 2) 이메일 / 소셜 링크
-
-`index.html`의 아래 값을 본인 정보로 변경하세요.
-
-- `hello@example.com`
-- GitHub 링크
-- LinkedIn 링크
-
-### 3) 자기소개 문구
-
-Hero, About, Skills 내용을 본인 경험에 맞게 자유롭게 수정할 수 있습니다.
-
-## 상태 → 렌더링 흐름
-
-1. **다크 모드**: 클릭 이벤트 → `state.theme` 변경 → `data-theme` 변경 → 전체 테마 렌더링
-2. **GitHub API**: 요청 → `loading/success/error` 상태 변경 → Projects UI 렌더링
-3. **폼 검증**: input/submit 이벤트 → `state.formErrors` 변경 → 필드별 오류 메시지 렌더링
-4. **프로젝트 필터**: 필터 버튼 클릭 → `state.activeFilter` 변경 → `filter()` 결과 렌더링
-
+.
 ## GitHub Pages 배포
 
 1. GitHub에 새 저장소를 생성합니다.
